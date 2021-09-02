@@ -49,7 +49,7 @@ function mdLinks(path, options) {
 }
 
 
-//mdLinks("../test",{validate:true}).then(res=>(console.log(res)));
+mdLinks("../test", {validate:false}).then(res=>(console.log(res))).catch(err => console.error(err))
 
 
 
@@ -61,6 +61,4 @@ function mdLinks(path, options) {
 
 //Promise.all(validate(findLinks(rutaFija))).then((res)=>console.log(res));
 //Promise.all(validate(findLinks(rutaFija))).then((res)=>console.log(resolve(res)));
-module.exports = {
-  mdLinks,
-};
+module.exports = mdLinks;

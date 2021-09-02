@@ -1,6 +1,6 @@
 const {
     mdLinks
-  } = require("../index.js");
+  } = require("../src/index");
   
   const validateLinks = [
     {

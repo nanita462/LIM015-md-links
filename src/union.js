@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const colors = require('colors');
-const { mdLinks } = require("./index");
+const  mdLinks  = require("./index");
 const {  broke, unique } = require("./cli");
 const chalk = require("chalk");
 const path = require("path")

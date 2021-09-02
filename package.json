@@ -1,6 +1,6 @@
 {
   "name": "ana-aguilera-lim015-md-links",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MD Links Project",
   "main": "src/index.js",
   "directories": {
@@ -11,7 +11,7 @@
 
   "scripts": {
     "test": "jest --coverage",
-    "start": "node src/mdLinks.js"
+    "start": "node src/index.js"
     
   },
   "repository": {
